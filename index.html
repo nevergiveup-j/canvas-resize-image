@@ -10,20 +10,21 @@
 </body>
 </html>
 <script src="js/zepto.min.js"></script>
+<script src="js/exif.min.js"></script>
 <script src="js/jpeg_encoder_basic.js"></script>
 <script src="js/megapix-image.js"></script>
-<script src="js/image-upload.js"></script>
+<script src="js/resize-image.js"></script>
 <script>
-	$('#photo').localResizeIMG({
-        width: 100,
-        quality: 0.7,
-        //before: function (that, blob) {},
-        success: function (result) {
-            var img = new Image();
-            img.src = result.base64;
+$('#photo').resizeIMG({
+    width: 200,
+    quality: 0.8,
+    successCallback: function(result){
+        console.log(result);
 
-            $('body').append(img);
-            console.log(result);
-        }
-    });
+        var img = new Image();
+         img.src = result.base64;
+
+        $('body').append(img);
+    }
+});
 </script>

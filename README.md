@@ -25,13 +25,9 @@ $('#photo').resizeIMG({
 </code></pre>
 
 ## 参数说明
-<pre><code>
-$(elem).resizeIMG(options);
-</code></pre>
-
 #### $(elem) 上传按扭元素
 <pre><code>
-<input type="file" id="photo" accept="image/*" capture="camera">
+$(elem).resizeIMG(options);
 </code></pre>
 
 #### options <code>Object</code> 配置<br />

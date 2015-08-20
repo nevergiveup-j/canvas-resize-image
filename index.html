@@ -14,17 +14,22 @@
 <script src="js/jpeg_encoder_basic.js"></script>
 <script src="js/megapix-image.js"></script>
 <script src="js/resize-image.js"></script>
+
 <script>
 $('#photo').resizeIMG({
     width: 200,
     quality: 0.8,
     successCallback: function(result){
-        console.log(result);
+        if(result.status === 200) {
+            var img = new Image();
+            
+            img.src = result.data.base64;
 
-        var img = new Image();
-         img.src = result.base64;
-
-        $('body').append(img);
+            $('body').append(img);
+        } else {
+            alert(result.message);
+        }
+        
     }
 });
 </script>

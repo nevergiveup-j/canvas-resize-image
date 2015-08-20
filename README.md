@@ -29,11 +29,11 @@ $('#photo').resizeIMG({
 $(elem).resizeIMG(options);
 </code></pre>
 
-### $(elem) 上传按扭元素
+$(elem) 上传按扭元素
 
   <input type="file" id="photo" accept="image/*" capture="camera">
   
-### options <code>Object</code> 配置
+options <code>Object</code> 配置<br />
 width <code>String</code> 图片需要压缩的宽度，高度会跟随调整<br />
 quality <code>Number</code> 压缩质量，不压缩为1<br />
 fileSize <code>Number</code> 图片大小 MB<br />

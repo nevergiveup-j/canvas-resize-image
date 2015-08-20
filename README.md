@@ -39,17 +39,16 @@ beforeCallback <code>Function</code> 处理前函数<br />
 successCallback <code>Function</code> 成功回调
 
 ## 使用其它插件说明
-### zepto.min.js
-这个不用说了～
+#### zepto.min.js 这个不用说了～
 
-### exif.min.js
+#### exif.min.js
 读取图像数据，使用图片拍照方向
 <pre><code>
   EXIF.getTag(file, 'Orientation')
 </code></pre>
 
-### jpeg_encoder_basic.js 
+#### jpeg_encoder_basic.js 
 修复android bug
 
-### megapix-image.js 
+#### megapix-image.js 
 修复IOS bug 

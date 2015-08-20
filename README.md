@@ -34,9 +34,9 @@ $(elem).resizeIMG(options);
   <input type="file" id="photo" accept="image/*" capture="camera">
   
 ### options <code>Object</code> 配置
-width <code>String</code> 图片需要压缩的宽度，高度会跟随调整
-quality <code>Number</code> 压缩质量，不压缩为1
-fileSize <code>Number</code> 图片大小 MB
-fileMessage <code>Number</code> 图片大小提示文字
-beforeCallback <code>Function</code> 处理前函数
+width <code>String</code> 图片需要压缩的宽度，高度会跟随调整<br />
+quality <code>Number</code> 压缩质量，不压缩为1<br />
+fileSize <code>Number</code> 图片大小 MB<br />
+fileMessage <code>Number</code> 图片大小提示文字<br />
+beforeCallback <code>Function</code> 处理前函数<br />
 successCallback <code>Function</code> 成功回调

@@ -30,9 +30,10 @@ $(elem).resizeIMG(options);
 </code></pre>
 
 #### $(elem) 上传按扭元素
+<pre><code>
+<input type="file" id="photo" accept="image/*" capture="camera">
+</code></pre>
 
-  <input type="file" id="photo" accept="image/*" capture="camera">
-  
 #### options <code>Object</code> 配置<br />
 width <code>String</code> 图片需要压缩的宽度，高度会跟随调整<br />
 quality <code>Number</code> 压缩质量，不压缩为1<br />

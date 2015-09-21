@@ -38,12 +38,5 @@ fileMessage <code>Number</code> 图片大小提示文字<br />
 beforeCallback <code>Function</code> 处理前函数<br />
 successCallback <code>Function</code> 成功回调
 
-## 使用其它插件说明
-#### zepto.min.js 这个不用说了～
-
-#### exif.min.js 读取图像数据，使用图片拍照方向
-<pre><code>
-  EXIF.getTag(file, 'Orientation')
-</code></pre>
-#### jpeg_encoder_basic.js 修复android bug
-#### megapix-image.js 修复IOS bug 
+## 代码说明
+[代码详细](https://github.com/nevergiveup-j/canvas-resize-image/issues/1)

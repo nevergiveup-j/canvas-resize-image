@@ -38,5 +38,4 @@ fileMessage <code>Number</code> 图片大小提示文字<br />
 beforeCallback <code>Function</code> 处理前函数<br />
 successCallback <code>Function</code> 成功回调
 
-## 代码说明
-[代码详细](https://github.com/nevergiveup-j/canvas-resize-image/issues/1)
+[代码说明](https://github.com/nevergiveup-j/canvas-resize-image/issues/1)
